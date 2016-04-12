@@ -13,6 +13,8 @@
 		BC539ABA1CB60EAC007B1C13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC539AB91CB60EAC007B1C13 /* Assets.xcassets */; };
 		BC539ABD1CB60EAC007B1C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC539ABB1CB60EAC007B1C13 /* LaunchScreen.storyboard */; };
 		BC539AC81CB60EAC007B1C13 /* SwiftBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC539AC71CB60EAC007B1C13 /* SwiftBasicUITests.swift */; };
+		BC6955F61CBCFA46001C31F5 /* defaultPhoto-temp.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6955F41CBCFA46001C31F5 /* defaultPhoto-temp.png */; };
+		BC6955F71CBCFA46001C31F5 /* meal1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6955F51CBCFA46001C31F5 /* meal1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		BC539AC31CB60EAC007B1C13 /* SwiftBasicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftBasicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC539AC71CB60EAC007B1C13 /* SwiftBasicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftBasicUITests.swift; sourceTree = "<group>"; };
 		BC539AC91CB60EAC007B1C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC6955F41CBCFA46001C31F5 /* defaultPhoto-temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultPhoto-temp.png"; sourceTree = "<group>"; };
+		BC6955F51CBCFA46001C31F5 /* meal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		BC539AB11CB60EAC007B1C13 /* SwiftBasicUI */ = {
 			isa = PBXGroup;
 			children = (
+				BC6955F31CBCFA46001C31F5 /* Images */,
 				BC539AB21CB60EAC007B1C13 /* AppDelegate.swift */,
 				BC539AB41CB60EAC007B1C13 /* ViewController.swift */,
 				BC539AB61CB60EAC007B1C13 /* Main.storyboard */,
@@ -94,6 +99,15 @@
 				BC539AC91CB60EAC007B1C13 /* Info.plist */,
 			);
 			path = SwiftBasicUITests;
+			sourceTree = "<group>";
+		};
+		BC6955F31CBCFA46001C31F5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				BC6955F41CBCFA46001C31F5 /* defaultPhoto-temp.png */,
+				BC6955F51CBCFA46001C31F5 /* meal1.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,7 +192,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC539ABD1CB60EAC007B1C13 /* LaunchScreen.storyboard in Resources */,
+				BC6955F71CBCFA46001C31F5 /* meal1.png in Resources */,
 				BC539ABA1CB60EAC007B1C13 /* Assets.xcassets in Resources */,
+				BC6955F61CBCFA46001C31F5 /* defaultPhoto-temp.png in Resources */,
 				BC539AB81CB60EAC007B1C13 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +406,7 @@
 				BC539ACE1CB60EAC007B1C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC539ACF1CB60EAC007B1C13 /* Build configuration list for PBXNativeTarget "SwiftBasicUITests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +415,7 @@
 				BC539AD11CB60EAC007B1C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
