@@ -17,6 +17,7 @@ class ViewController: UIViewController,UITextFieldDelegate,UIImagePickerControll
     @IBOutlet weak var lb_mealName:   UILabel!
     @IBOutlet weak var txtField_name: UITextField!
     @IBOutlet weak var img_photo:     UIImageView!
+    @IBOutlet weak var ratingControl: RatingControl!
     
     @IBOutlet var btn_setName: UIButton!
 

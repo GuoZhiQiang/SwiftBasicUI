@@ -11,7 +11,7 @@ import XCTest
 
 class SwiftBasicUITests: XCTestCase {
     
-    override func setUp() {
+    /*override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -31,6 +31,25 @@ class SwiftBasicUITests: XCTestCase {
         self.measureBlock {
             // Put the code you want to measure the time of here.
         }
+    }*/
+    
+    // MARK: SwiftBasicUI Tests
+    
+    //Start any method that you want to run as a test with “test” in the title
+    func testMealInitialization() {
+        
+        // Success case
+        let potentialItem = Meal(name: "Newest meal", photo: nil, rating: 5)
+        XCTAssertNotNil(potentialItem)
+        
+        // Failure cases
+        let noName = Meal(name: "", photo: nil, rating: 0)
+        XCTAssertNil(noName, "Empty name is invalid")
+        
+        let badRating = Meal(name: "Bad rating", photo: nil, rating: -1)
+        XCTAssertNil(badRating, "Negative ratings are invalid, be positive")
+        
+        
     }
     
 }

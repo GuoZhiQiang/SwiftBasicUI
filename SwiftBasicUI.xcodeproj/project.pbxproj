@@ -16,6 +16,10 @@
 		BC539AC81CB60EAC007B1C13 /* SwiftBasicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC539AC71CB60EAC007B1C13 /* SwiftBasicUITests.swift */; };
 		BC6955F61CBCFA46001C31F5 /* defaultPhoto-temp.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6955F41CBCFA46001C31F5 /* defaultPhoto-temp.png */; };
 		BC6955F71CBCFA46001C31F5 /* meal1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6955F51CBCFA46001C31F5 /* meal1.png */; };
+		BC6D5B9E1CC0D39600BF4DF5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D5B9D1CC0D39600BF4DF5 /* Meal.swift */; };
+		BC6D5B9F1CC0D39600BF4DF5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6D5B9D1CC0D39600BF4DF5 /* Meal.swift */; };
+		BC6E72B41CBF9E1A0094A021 /* emptyStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6E72B21CBF9E1A0094A021 /* emptyStar1.png */; };
+		BC6E72B51CBF9E1A0094A021 /* filledStar1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6E72B31CBF9E1A0094A021 /* filledStar1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,9 @@
 		BC539AC91CB60EAC007B1C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC6955F41CBCFA46001C31F5 /* defaultPhoto-temp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "defaultPhoto-temp.png"; sourceTree = "<group>"; };
 		BC6955F51CBCFA46001C31F5 /* meal1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meal1.png; sourceTree = "<group>"; };
+		BC6D5B9D1CC0D39600BF4DF5 /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BC6E72B21CBF9E1A0094A021 /* emptyStar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptyStar1.png; sourceTree = "<group>"; };
+		BC6E72B31CBF9E1A0094A021 /* filledStar1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filledStar1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				BC6955F31CBCFA46001C31F5 /* Images */,
+				BC6D5B9D1CC0D39600BF4DF5 /* Meal.swift */,
 				BC539AB21CB60EAC007B1C13 /* AppDelegate.swift */,
 				BC539AB41CB60EAC007B1C13 /* ViewController.swift */,
 				BC191EC41CBD4B9000DE2D1E /* RatingControl.swift */,
@@ -107,6 +115,8 @@
 		BC6955F31CBCFA46001C31F5 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BC6E72B21CBF9E1A0094A021 /* emptyStar1.png */,
+				BC6E72B31CBF9E1A0094A021 /* filledStar1.png */,
 				BC6955F41CBCFA46001C31F5 /* defaultPhoto-temp.png */,
 				BC6955F51CBCFA46001C31F5 /* meal1.png */,
 			);
@@ -195,7 +205,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC539ABD1CB60EAC007B1C13 /* LaunchScreen.storyboard in Resources */,
+				BC6E72B41CBF9E1A0094A021 /* emptyStar1.png in Resources */,
 				BC6955F71CBCFA46001C31F5 /* meal1.png in Resources */,
+				BC6E72B51CBF9E1A0094A021 /* filledStar1.png in Resources */,
 				BC539ABA1CB60EAC007B1C13 /* Assets.xcassets in Resources */,
 				BC6955F61CBCFA46001C31F5 /* defaultPhoto-temp.png in Resources */,
 				BC539AB81CB60EAC007B1C13 /* Main.storyboard in Resources */,
@@ -216,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6D5B9E1CC0D39600BF4DF5 /* Meal.swift in Sources */,
 				BC539AB51CB60EAC007B1C13 /* ViewController.swift in Sources */,
 				BC191EC51CBD4B9000DE2D1E /* RatingControl.swift in Sources */,
 				BC539AB31CB60EAC007B1C13 /* AppDelegate.swift in Sources */,
@@ -226,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6D5B9F1CC0D39600BF4DF5 /* Meal.swift in Sources */,
 				BC539AC81CB60EAC007B1C13 /* SwiftBasicUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -296,7 +310,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -335,7 +349,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
